@@ -24,9 +24,7 @@ Empty Username And Password      ${EMPTY}         ${EMPTY}
 *** Keywords ***
 Login With Invalid Credentials Should Fail
     [Arguments]    ${username}    ${password}
-    Input Username    ${username}
-    Input Password    ${password}
-    Submit Credentials
+    Login To App    ${username}    ${password}
     Login Should Have Failed
 
 Login Should Have Failed

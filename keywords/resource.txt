@@ -42,6 +42,12 @@ Input Password
 Submit Credentials
     Click Button    login_button
 
+Login To App
+    [Arguments]    ${username}    ${password}
+    Input Username    ${username}
+    Input Password    ${password}
+    Submit Credentials
+
 Welcome Page Should Be Open
     Location Should Be    ${WELCOME URL}
     Title Should Be    Welcome Page
