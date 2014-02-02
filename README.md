@@ -53,4 +53,4 @@ project_root/test
   - logout
       - logout_test.txt
   
-  # If there are tests that are common then it should be converted into a keyword to allow modularity and reuse
+If there are tests that are common then it should be converted into a keyword to allow modularity and reuse
