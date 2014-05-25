@@ -3,7 +3,7 @@ Library        SeleniumLibrary  timeout=30 s
 Library        lib/utils.py
 
 # resource importation/extension
-Resource       resource.txt
+Resource       resource.robot
 
 *** Variables ***
 ${SERVER}        setthis.com
